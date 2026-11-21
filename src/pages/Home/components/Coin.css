@@ -1,0 +1,13 @@
+.coinsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem 10%;
+}
+.coinsContainer p{
+    background-color: rgb(17, 26, 46);
+    border-radius: 6px;
+    border: 1px solid  rgb(139, 156, 198);
+    padding: 20px;
+    color: rgb(139, 156, 198);
+}

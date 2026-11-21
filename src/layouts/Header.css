@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%; 
+}
+.containerLogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.containerLogo h3{
+    color: white;
+    font-size: 26px;
+}
+.containerLogo h3 span{
+    color: rgb(244, 144, 25);
+}
+.containerLogo SVG{
+    font-size: 33px;
+    color: rgb(244, 144, 25);
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(177, 195, 231);
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color:rgb(244, 144, 25) ;
+}
+.refreshBtn{
+    background-color: rgb(17, 26, 46);
+    border-radius: 10px;
+    border: 1px solid  rgb(139, 156, 198);
+    padding: 10px;
+    color: rgb(139, 156, 198);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

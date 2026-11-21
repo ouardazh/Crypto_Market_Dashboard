@@ -1,0 +1,66 @@
+/* .containerCoins{
+    background-color: rgb(18, 28, 49);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid  rgb(139, 156, 198);
+    padding: 16px;
+} */
+ .containerCoins{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr;
+    margin: 4px;
+    padding: 16px;
+    color: white;
+    
+    background-color: rgb(17, 26, 46);
+    border-radius: 6px;
+    border: 1px solid  rgb(139, 156, 198);
+
+}
+.container{
+   width: 80%;
+   margin: 1rem auto;
+}
+
+.containerName{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.containerName p{
+    color: rgb(139, 156, 198);
+}
+.containerSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+   
+}
+.containerSearch input,select{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(26, 40, 67);
+    border: 1px solid  rgb(139, 156, 198);
+    color: rgb(139, 156, 198);
+    width: 300px;
+}
+.detailBtn{
+    border: none;
+    
+    background-color: transparent;
+}
+.detailBtn SVG{
+    color: rgb(160, 172, 219);
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
